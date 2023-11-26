@@ -1,0 +1,193 @@
+:root {
+    --niebieski: #8cb5c4;
+    --rozowy: #cc5273;
+    --fioletowy: #a785ca;
+}
+
+* {box-sizing: border-box;
+}
+html {
+    width: 100;
+    height: 180%;
+}
+
+body {
+    font-family: "Catamaran, sans-serif";
+    font-size: 18px;
+    color: black;
+    line-height: 1,5;
+    background-color: var(--niebieski);
+}
+img{
+    max-width: 100%;
+}
+.container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 20px;
+ }
+
+h1,h2,h3{
+    margin:0
+}
+
+h2,h3{
+    font-weight:180;
+    margin:0 0 20px;
+    line-height: 1;
+}
+
+h2{
+    font-size: 70px;
+}
+
+h3{
+    font-size: 30px;
+}
+p {
+    margin:0 0 20px;
+}
+
+.header {
+    padding: 30px 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    text-align: right;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    padding: 10px 15px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    border: 3px solid lightseagreen;
+    transition: border-bottom 0.5s ease-in;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.hero-section{
+    color:#000000;
+    background: url("https://img.freepik.com/premium-photo/panda-s-haven-majestic-encounter-bamboo-forest_13364-7857.jpg");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-logo {
+    color: var(--rozowy);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 1;
+    margin: 100px 0 40px;
+}
+
+.hero-lead {
+    font-size: 22px;
+    max-width: 45%;
+    margin-bottom: 50px;
+}
+  
+.hero-button {
+    color: #000000;
+    border: 3px solid var(--rozowy);
+    text-decoration: none;
+    padding: 8px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 20px;
+}
+/* Columns */
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .columns-2-container .column {
+    width: 45%;
+  }
+  
+  .columns-3-container {
+    flex-wrap: wrap;
+    row-gap: 25px;
+  }
+  
+  .columns-3-container .column {
+    width: 32%;
+  }
+  
+  .columns-4-container .column {
+    text-align: center;
+    flex-basis: 25%;
+  }
+  /* Sections */
+.section {
+    padding: 100px 0;
+  }
+  
+  .section-violet {
+    background-color: #4f247c;
+    color: #ffffff;
+  }
+  
+  .section-pink {
+    background-color: #bf0034;
+    color: #ffffff;
+  }
+  
+  .section-title {
+    color: #bf0034;
+  }
+  /* About section */
+.about-section {
+    padding: 120px 0;
+  }
+  
+  .about-image {
+    text-align: center;
+    position: relative;
+    max-height: 1000px;
+  }
+  
+  .about-image img {
+    max-height: 1000px;
+  }
+  /* INTEREST SECTION */
+.interests-section svg {
+    border: 2px solid var(--rozowy);
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 50%;
+}
+  
+.interest-name {
+    margin: 20px 0;
+}
+  
+.interest-text {
+    padding: 0 10px;
+    font-size: 14px;
+}
